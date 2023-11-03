@@ -39,7 +39,7 @@ It outputs 2 files
 - emotiondetector.h5 (binary)
 - emotiondetector.json (json)
 
-# realtimedetction_main.py
+# realtimedetection_main.py
 Uses OpenCV to acess the users webcam and saves the recorded videos in the *./videos* folder with the date and time.
 
 # Specifications
