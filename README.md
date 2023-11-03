@@ -29,9 +29,9 @@ The dataset used is the 'Face expression recognition dataset' from kaggle.com
 A Convolutional neural network is the best kind of neural netowrk for image processing.
 They comprise of 3 main layers
 
-1. Convolutional Layer: The convolutional layer is the core building block of a CNN, and it is where the majority of computation occurs. It requires a few components, which are input data, a filter, and a feature map.
-2. Pooling Layer: Also known as downsampling, conducts dimensionality reduction, reducing the number of parameters in the input
-3. Fully Connected Layer: The pixel values of the input image are not directly connected to the output layer in partially connected layers. However, in the fully-connected layer, each node in the output layer connects directly to a node in the previous layer.
+1. **Convolutional Layer**: The convolutional layer is the core building block of a CNN, and it is where the majority of computation occurs. It requires a few components, which are input data, a filter, and a feature map.
+2. **Pooling Layer**: Also known as downsampling, conducts dimensionality reduction, reducing the number of parameters in the input
+3. **Fully Connected Layer**: The pixel values of the input image are not directly connected to the output layer in partially connected layers. However, in the fully-connected layer, each node in the output layer connects directly to a node in the previous layer.
 
 # face_rec.ipynb
 This file is a **jupyter notebook file** that trains our machine learning model. 
