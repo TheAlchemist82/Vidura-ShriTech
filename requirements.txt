@@ -7,3 +7,4 @@ notebook
 tqdm
 opencv-contrib-python
 scikit-learn
+customtkinter==0.3
