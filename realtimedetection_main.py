@@ -55,5 +55,7 @@ while True:
     except cv2.error:
         pass
     if cv2.waitKey(1) & 0xFF == ord('a'):
+        webcam.release()
+        cv2.destroyAllWindows()
         break
     
